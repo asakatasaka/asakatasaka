@@ -1,0 +1,50 @@
+Assignment 04: Git (2-a)
+
+_______________________________________________________________________________________
+
+Admin@DESKTOP-UECBA41 MINGW64 ~
+$ git --version
+git version 2.40.0.windows.1
+Admin@DESKTOP-UECBA41 MINGW64 ~
+$ mkdir test
+Admin@DESKTOP-UECBA41 MINGW64 ~
+$ cd test
+Admin@DESKTOP-UECBA41 MINGW64 ~/test
+$ git init
+Initialized empty Git repository in C:/Users/Admin/test/.git/
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git status
+On branch master
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo.txt
+nothing added to commit but untracked files present (use "git add" to track)
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git add demo.txt
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git commit -m "comitting a text file"
+Author identity unknown
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-UECBA41.(none)')
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git config --global user.email "ajinkya1529@gmail.com"
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git commit -m "comitting a text file"
+[master (root-commit) 7822af5] comitting a text file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 demo.txt
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git config --global user.username Ajinkya2703
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git remote add origin https://github.com/Ajinkya2703/test_demo.git
+Admin@DESKTOP-UECBA41 MINGW64 ~/test (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 227 bytes | 227.00 KiB/s, done.

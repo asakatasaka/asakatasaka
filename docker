@@ -1,0 +1,18 @@
+docker -v
+docker images
+docker ps
+docker pull openjdk
+docker images
+docker run --name JAVA -it -d openjdk
+docker ps
+docker exec -it JAVA "command_name"
+System.out.println("Hello Docker")
+docker ps
+/exit
+docker ps
+docker container rm Container_id
+docker stop container_id
+docker container rm Container_id
+docker ps
+docker images
+docker images prune

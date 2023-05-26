@@ -1,0 +1,22 @@
+Assignment 2c
+
+npm --version
+
+npm install -g @angular/cli@latest
+
+ng new part c
+
+y
+
+css
+
+partc/src =
+>app.component.css
+>app.component.html
+>app.component.ts
+
+cd part c
+
+ng serve
+
+y

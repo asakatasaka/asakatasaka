@@ -1,0 +1,16 @@
+input
+{
+    width: 400px;
+    height: 25px;
+    margin: 10px;
+    padding: auto;
+}
+
+button
+{
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
